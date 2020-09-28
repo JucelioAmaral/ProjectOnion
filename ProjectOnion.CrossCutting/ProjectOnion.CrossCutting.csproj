@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectOnion.Core\ProjectOnion.Core.csproj" />
+    <ProjectReference Include="..\ProjectOnion.Infra\ProjectOnion.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
