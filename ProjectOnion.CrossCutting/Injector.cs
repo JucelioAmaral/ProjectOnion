@@ -16,12 +16,12 @@ namespace ProjectOnion.CrossCutting
         {
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<ICourseService, CourseService>();
-            //services.AddScoped<ICategoryAndCourseService, CategoryAndCourseService>();
+            services.AddScoped<ICategoryAndCourseService, CategoryAndCourseService>();
 
             
             services.AddScoped<ICategory, CategoryRepository>();
             services.AddScoped<ICourse, CourseRepository>();
-            //services.AddScoped<ICategoryAndCourse, CategoryAndCourseRepository>();
+            services.AddScoped<ICategoryAndCourse, CategoryAndCourseRepository>();
 
 
         }
